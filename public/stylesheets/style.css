@@ -1,13 +1,45 @@
 body {
-  padding: 50px;
+  padding: 20px;
+  padding-bottom: 40px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 960px;
+}
+
+p.lead {
+  padding-top:15px;
+}
+
+.menu, .pitch, .section1, .section2, .faq, .footer {
+  padding: 10px 0px 10px 0px;
 }
 a {
   color: #00b7ff;
 }
+h1 {
+  font-family: Dakota;
+  float: left;
+}
 ul {
   list-style-type: none;
+  padding: 15px;
+  float: right;
+}
+li {
+  float: left;
+  padding-right: 10px;
+}
+ul li a:hover {
+  border-bottom: solid 3px #57c6ff;
+}
+li a {
+  padding-left: 10px;
 }
 a {
   text-decoration: none;
+}
+p {
+  clear: both;
 }
