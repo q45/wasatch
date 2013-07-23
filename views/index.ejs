@@ -3,15 +3,64 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
   </head>
   <body>
-    <h1><%= title %></h1>
+<div class="container">
+<div class="row navigation">
+   <div class="span6 logo">
+	 <h1><%= title %></h1>
+  </div>
+  <div class="span6 menu">
     <ul>
 	<li><a href="/"</a>Home</a></li>
-	<li><a href="/"</a>About</a></li>
+	<li><a href="/about"</a>About</a></li>
 	<li><a href="/"</a>Contact</a></li>
     </ul>
+</div>
+</div> <!-- end navigation -->
+<div class="row subheading">
+<div class="span12">
     <p>Welcome to <%= title %></p>
+</div>
+</div>
+<div class="row pitch">
+<div class="span5 video">
+Video Portion
+</div>
+<div class="span7">
+<div class="node">
+Node.js
+</div>
+<div class="rails">
+Ruby on Rails
+</div>
+<div class="design">
+User Design and Marketing
+</div>
+</div>
+</div>
+<div class="row section1">
+<div class="span12">
+Marketing Section1
+</div>
+</div>
+<div class="row section2">
+<div class="span12">
+Marketing Section2
+</div>
+</div>
+<div class="row faq">
+<div class="span12">
+  FAQ
+</div>
+</div>
+<div class="row footer">
+<div class="span12">
     <a href="mailto:wasatchcode@gmail.com?Subject=WebSite" target="_top">Contact us</a>
+    Salt Lake City, UT
+</div>
+</div>
+</div>
   </body>
 </html>
