@@ -105,13 +105,18 @@
 	margin-top: 25px;
 }
 .nav a:hover {
-	border-bottom: 2px solid blue;
+	border-bottom: 4px solid #aeff57; 
 }
 
 .footer {
-	background: black;
+	background: #82a859;
 	height: 50px;
 }
+
+
+.footer ul {margin-left: 210px; padding-top: 16px;}
+
+.footer-list li {display:inline; color: white; padding-left: 15px; font-weight:bold;}
 /* #Lists
 ================================================== */
 	ul, ol { margin-bottom: 20px; }
@@ -280,3 +285,5 @@
 	.add-bottom { margin-bottom: 20px !important; }
 
 	div.one-third.column h4 {margin-left: 40px;}
+	h5 {padding-left: 66px; font-family: Helvetica; color: #5c5b5b; font-weight: bold;}
+	div.logo {padding: 10px 0 10px 0}
